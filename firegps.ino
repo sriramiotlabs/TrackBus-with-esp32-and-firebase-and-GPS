@@ -94,14 +94,7 @@ void loop()
      json.set("/latitude", latitude);
      json.set("/longitude", longitude);
      Firebase.updateNode(firebaseData, "/s_data", json);
-   // Serial.print(latitude, 6);
-    //Serial.print(F(","));
-    //Serial.print(longitude, 6);
-   //  json.set("/latitude", latitude);
-    // json.set("/longitude", longitude);
-     //Firebase.updateNode(firebaseData," / location",json);
-     
- delay(3000);
+     delay(3000);
   }
   else
   {
@@ -110,30 +103,6 @@ void loop()
 
   }
 
-    }
   }
-//  Serial.println(randomFloat, 6); // Print the random float value with 6 decimal places
-  //d//elay(1000); // Wait for a second (adjust as needed)
-  float val_la=(randomFloat_la);
-  float val_lo=(randomFloat_lo);
-  // Create a JSON object to hold the data
- 
- String ans1=String(val_la);
- String ans2=String(val_lo);
- //Firebase.setInt("data", val_la);
-                // Set the latitude and longitude in the JSON object
-                 
-                 // Update the Firebase Realtime Database with the GPS data                 
-                 //json.set("/data", ans1);
-                // json.set("/fire_data_lo", ans2);
-              //  json.set("/data", val_la);
-               json.set("/latitude", latitude);
-                 json.set("/longitude", longitude);
-                 Firebase.updateNode(firebaseData, "/s_data", json);
-                 // json.set("/latitude", latitude);
-                 // json.set("/longitude", longitude);
-                 // json.set("/fire_data_la", val_la);
-                 // json.set("/fire_data_lo", val_lo);
-  //  delay(1000);             
-
-               }
+  }
+}
