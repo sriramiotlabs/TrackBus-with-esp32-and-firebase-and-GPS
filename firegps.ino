@@ -4,8 +4,8 @@
 
 #define FIREBASE_HOST "https://gps-fa1e6-default-rtdb.firebaseio.com/"
 #define FIREBASE_AUTH "GIEmBF5cwoLWw729URm9fsy8l6HjnFGkXlJ5tyuefetio"
-#define WIFI_SSID "Dhanu"
-#define WIFI_PASSWORD "12345678"
+#define WIFI_SSID "*****"
+#define WIFI_PASSWORD "******"
 float latitude ;
 float longitude ;
 
