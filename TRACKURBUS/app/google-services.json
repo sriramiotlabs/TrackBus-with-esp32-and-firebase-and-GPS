@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "574536146994",
+    "firebase_url": "https://espgps-a3786-default-rtdb.firebaseio.com",
+    "project_id": "espgps-a3786",
+    "storage_bucket": "espgps-a3786.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574536146994:android:e0d94c6144b5e5dc7a9c2b",
+        "android_client_info": {
+          "package_name": "com.example.trackurbus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcmxNB0K0DRCSI2dk3C8FYG-tA5gUojz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
